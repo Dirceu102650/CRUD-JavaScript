@@ -1,1 +1,17 @@
-
+<div class="container">
+  <input type="search" onkeyup="filtrarConteudoTabela(this.value,'search')" id="searchInput">
+  <button id="buttonSearch" type="submit">OK</button>
+</div>
+<table id="search">
+  <thead>
+  <tr>
+    <th>Produto</th>
+    <th>Preço</th>
+    <th>Status</th>
+    <th>Ação</th>
+  </tr>
+  <tbody id="produtos"></tbody>
+  <tfoot></tfoot>
+   </thead>
+</table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
